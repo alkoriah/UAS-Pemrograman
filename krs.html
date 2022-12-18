@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</body>
+</html>
+    <head>
+        <title>Sistem Informasi Akademik</title>
+        <style>
+            body{
+                margin: 0; 
+                padding: 0;
+                background: seashell;
+            }
+            nav{
+                width: 100%;
+                background: salmon;
+                overflow: auto;
+            }
+            ul{
+                padding: 0;
+                margin: 0 0 0 150px;
+                list-style: none;
+            }
+            li{
+                float: left;
+            }
+            .logo img{
+                position: absolute;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+            nav a{
+                width: 100px;
+                display: block;
+                padding: 20px 15px;
+                text-decoration: none;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(17, 17, 17);
+                text-align: center;
+            }
+            nav a:hover{
+                background: peachpuff;
+                transition: 0.5s;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+            .team-list{
+                width: 100%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .kartu-team{
+                width: 20%;
+                margin: 0 auto;
+            }
+            .kartu-team img{
+                width: 80%;
+                border-radius: 50%;
+            }
+            .kartu-team p{
+                font-family: 'comic sans ms';
+                font-weight: 800;
+                font-size: 25px;
+                text-align: center;
+                color: aliceblue;
+            }
+            #contact {
+                background: #dedede;
+                 padding:50px 0px 50px 0px;
+                }
+            .footer {
+                width: 100%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto;
+            }
+            .footer-section {
+                width: 20%;
+                margin: 0 auto;
+            }
+
+           .img1{
+	            position:absolute;
+	            left:190px;
+	            width:110px;
+            }
+            span{
+	            font-size:30px
+            }
+            .alamat{
+	            background-color: black;
+	            color:white;
+            }
+            .khs{
+	        font-weight: bold;
+	        font-size:20px;
+            }
+            .tabel3{
+	        font-weight: bold;
+	        font-size:17px;
+            }
+            .w1{
+            position:absolute;
+            left:432px;
+            font-size:17px;
+            }
+            .w2{
+                position:absolute;
+                right:100px;
+                font-size:17px;
+            }
+            .t2{
+                margin-right: -250px;
+                position: relative;
+                bottom: 70px;
+            }
+            .t1{
+                margin-right:250px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo"><a href="#"><img src="https://stmiksznw.ac.id/wp-content/uploads/2019/11/Untitled-1.png" width="115px" height="50px"></a></div>
+        <nav>
+            <ul>
+                <li><a href ="home.html">Home</a></li>
+                <li><a href ="mahasiswa.html">Mahasiswa</a></li>
+                <li><a href ="dosen.html">Dosen</a></li>
+                <li><a href ="matakuliah.html">Mata Kuliah</a></li>
+                <li><a href ="nilai.html">Nilai</a></li>
+                <li><a href ="krs.html">KRS</a></li>
+                <li><a href ="khs.html">KHS</a></li>
+                <li><a href ="jurusan.html">Jurusan</a></li>
+            </ul>
+        </nav><br>
+
+    </br>
+    <img src="../images/logo.png" class="img1">
+    <center><font><b> SEKOLAH TINGGI MANAJEMEN INFORMATIKA DAN KOMPUTER</b><br>
+     <span><b>(STMIK) SYAIKH ZAINUDDIN NW</b></span><br>
+    <b> ANJANI LOMBOK TIMUR- NTB</b><br>
+     <b>SK. MenteriPendidikanNasionalRI Nomor :80/D/O/2006</b><br></font>
+     <font class="alamat"> Alamat:Jln. Raya Mataram-Lb KM. 49 Anjani Lombok timur NTB. Tlp./Fax.0376-63145 KP. 83652</font>
+    <br> <br></center>
+
+   <center><p class="khs"> KARTU RENCANA STUDI </p><br><br><br><br><br></center>
+
+   <table class="t1" align="center" width="800" >
+       <tr>
+           <td width="200">NAMA MAHASISWA</td>
+           <td width="5">:</td>
+           <td>TEKNIK INFORMATIKA</td>
+       </tr>
+       <tr>
+           <td>NPM</td>
+           <td>:</td>
+           <td>204855</td>
+       </tr>
+       <tr>
+           <td>DOSEN WALI</td>
+           <td>:</td>
+           <td>M.Khairul Faridi,S.Kom.,M.Kom</td>
+       </tr>
+       </table>
+
+       <table class="t2" align="center" width="800" >
+        <tr>
+            <td width="200">SEMESTER</td>
+            <td width="5">:</td>
+            <td>TEKNIK INFORMATIKA</td>
+        </tr>
+        <tr>
+            <td>TH.AKADEMIK</td>
+            <td>:</td>
+            <td>204855</td>
+        </tr>
+        <tr>
+            <td>PROG STUDI</td>
+            <td>:</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        </table>
+       <br>
+      
+
+   <center><table border="2" cellspacing="0" cellpadding="15">
+       <thead>
+           <tr>
+               <th>NO</th>
+               <th>KODE MK</th>
+               <th>MATA KULIAH</th>
+               <th>SKS</th>
+               <th>DOSEN</th>
+           </tr>
+       </thead>
+
+       <tbody>
+           <tr>
+               <td>1</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>2</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>3</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>4</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>5</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>6</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>7</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>8</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>9</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td>10</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+       </tbody>
+
+       <tbody>
+           <tr>
+               <td colspan="3">JUMLAH</td>
+               <td></td>
+               <td></td>
+               
+               
+           </tr>
+       </tbody>
+   </table> <br><br>
+
+
+    <table class="tabel3" align="center" width="600" >
+       <tr>
+           <td width="200">SKS yang diambil</td>
+           <td width="5">:</td>
+           <td>24</td>
+       </tr>
+       <tr>
+           <td>SKS yang lulus</td>
+           <td>:</td>
+           <td>24</td>
+       </tr>
+       <tr>
+           <td>SKS yang gagal</td>
+           <td>:</td>
+           <td>0</td>
+       </tr>
+       <tr>
+           <td>SKS diperkenankan</td>
+           <td>:</td>
+           <td>24</td>
+       </tr>
+       <tr>
+           <td>Ip Semester</td>
+           <td>:</td>
+           <td>4.00</td>
+       </tr>
+   </table><br><br>
+
+   <font class="w1"> Mengetahui;<br> Wakil Ketua I Bid. Akademik<br><br><br><br>
+   Drs. H. Marzuki Adami, SH., M.AP.</font>
+
+   <font class="w2">Anjani, 16 Desember 2022<br> Ketua Program Studi,<br><br><br><br>
+  Lalu Puji Indar Kharisma, S.Kom., M.Cs</font>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<!-- untuk tutors -->
+<section id="tutors">
+    <div class="tengah">
+        <div class="kolom">
+            <p class="deskripsi"><center><b>OUR TEAM</b></center></p>
+            <p><center>Tim yang berkerjasama dalam menyelesaikan website SIAKAD</center></p>
+        </div>
+
+        <div class="team-list">
+            <div class="kartu-team">
+                <img src="https://i.ibb.co/8dPPZ4w/Ria.jpg"/>
+                <p>RIA MELANI</p>
+            </div>
+            <div class="kartu-team">
+                <img src="https://i.ibb.co/9t9mCfY/Neni.jpg"/>
+                <p>NENI HAZIZATUN ANISA</p>
+            </div>
+            <div class="kartu-team">
+                <img src="https://i.ibb.co/gvbW7ts/Suri.jpg"/>
+                <p>SURYATI</p>
+            </div>
+
+        </br>
+            <div class="kartu-team">
+                <down><img src="https://i.ibb.co/tx4Rz9D/Qori.jpg"/></down>
+                <p>AL QORIAH</p>
+            </div>
+            <div class="kartu-team">
+                <img src="https://i.ibb.co/SwYZytR/Izah.jpg"/>
+                <p>IZZATUL ASFIYANI</p>
+            </div>
+            <div class="kartu-team">
+                <img src="https://i.ibb.co/grd9bcg/mala.jpg"/>
+                <p>FATMALA AINI</p>
+            </div>
+        </section>
+</div>
+<div id="contact">
+    <div class="wrapper">
+        <div class="footer">
+            <div class="footer-section">
+                <h3>Kelompok Dua</h3>
+                <p>Kami dari kelompok 2, yang beranggotakan 6 orang perempuan</p>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Sistem Informasi Akademik Stmik sz nw anjani</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Jln. Raya Mataram- Lb.Lombok KM 49 Desa Anjani, Lombok Timur-NTB Adisucipto Sleman Yogyakarta</p>
+                <p>kontak@stmiksznw.ac.id</p>
+            </div>
+            <div class="footer-section">
+                <h3>Social</h3>
+                <p><b>Instagram: </b>stmiksznw_official</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="copyright">
+    <div class="wrapper">
+       <center>&copy; 2020. <b>kelompok2.</b> uaspemrograman.</center>
+    </div>
+</body>
+</html>

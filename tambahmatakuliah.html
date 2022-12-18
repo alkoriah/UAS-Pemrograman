@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</body>
+</html>
+    <head>
+        <title>Sistem Informasi Akademik</title>
+        <style>
+            body{
+                margin: 0; 
+                padding: 0;
+                background: seashell;
+            }
+            nav{
+                width: 100%;
+                background: salmon;
+                overflow: auto;
+            }
+            ul{
+                padding: 0;
+                margin: 0 0 0 150px;
+                list-style: none;
+            }
+            li{
+                float: left;
+            }
+            .logo img{
+                position: absolute;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+            nav a{
+                width: 100px;
+                display: block;
+                padding: 20px 15px;
+                text-decoration: none;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(17, 17, 17);
+                text-align: center;
+            }
+            nav a:hover{
+                background: peachpuff;
+                transition: 0.5s;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+            .team-list{
+                width: 100%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .kartu-team{
+                width: 20%;
+                margin: 0 auto;
+            }
+            .kartu-team img{
+                width: 80%;
+                border-radius: 50%;
+            }
+            .kartu-team p{
+                font-family: 'comic sans ms';
+                font-weight: 800;
+                font-size: 25px;
+                text-align: center;
+                color: aliceblue;
+            }
+            #contact {
+                background: #dedede;
+                 padding:50px 0px 50px 0px;
+                }
+            .footer {
+                width: 100%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto;
+            }
+            .footer-section {
+                width: 20%;
+                margin: 0 auto;
+            }
+            form{
+                margin-left: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo"><a href="#"><img src="https://stmiksznw.ac.id/wp-content/uploads/2019/11/Untitled-1.png" width="115px" height="50px"></a></div>
+        <nav>
+            
+            <ul>
+                <li><a href ="home.html">Home</a></li>
+                <li><a href ="mahasiswa.html">Mahasiswa</a></li>
+                <li><a href ="dosen.html">Dosen</a></li>
+                <li><a href ="matakuliah.html">Mata Kuliah</a></li>
+                <li><a href ="nilai.html">Nilai</a></li>
+                <li><a href ="krs.html">KRS</a></li>
+                <li><a href ="khs.html">KHS</a></li>
+                <li><a href ="jurusan.html">Jurusan</a></li>
+            </ul>        
+        </nav>
+<br>
+<br>
+<br>
+<br>
+
+<center><h1><b>Form Mata Kuliah</b></h1></center>
+<br>
+        <form>
+            <label for="kodematakuliah"><b>Kode Mata Kuliah</b></label>
+            <br><br>
+            <input id="kodematakuliah" type="text">
+            <br><br>
+
+            <label for="matakuliah"><b>Mata Kuliah</b></label>
+            <br><br>
+            <input id="matakuliah"type="text">
+            <br><br>
+
+            <label for="pengampu"><b>Pengampu</b></label>
+            <br><br>
+            <input id="pengampu"type="text">
+            <br><br>
+
+            <label for="sks"><b>SKS</b></label>
+            <br><br>
+            <input id="sks"type="text">
+            <br><br>
+           
+
+
+
+            </select>
+        </form>
+        <button class="simpan"><a href="mahasiswa.html"><b>Simpan</b></a></button>
+        <button class="reset"><a href="mahasiswa.html"><b>Reset</b></a></button>
+
+<br>
+<br>
+<br>
+    <br>
+    <br>
+    <br>
+<br>
+    <!-- untuk tutors -->
+<section id="tutors">
+<div class="tengah">
+    <div class="kolom">
+        <p class="deskripsi"><center><b>OUR TEAM</b></center></p>
+        <p><center>Tim yang berkerjasama dalam menyelesaikan website SIAKAD</center></p>
+    </div>
+
+    <div class="team-list">
+        <div class="kartu-team">
+            <img src="https://i.ibb.co/8dPPZ4w/Ria.jpg"/>
+            <p>RIA MELANI</p>
+        </div>
+        <div class="kartu-team">
+            <img src="https://i.ibb.co/9t9mCfY/Neni.jpg"/>
+            <p>NENI HAZIZATUN ANISA</p>
+        </div>
+        <div class="kartu-team">
+            <img src="https://i.ibb.co/gvbW7ts/Suri.jpg"/>
+            <p>SURYATI</p>
+        </div>
+
+    </br>
+        <div class="kartu-team">
+            <down><img src="https://i.ibb.co/tx4Rz9D/Qori.jpg"/></down>
+            <p>AL QORIAH</p>
+        </div>
+        <div class="kartu-team">
+            <img src="https://i.ibb.co/SwYZytR/Izah.jpg"/>
+            <p>IZZATUL ASFIYANI</p>
+        </div>
+        <div class="kartu-team">
+            <img src="https://i.ibb.co/grd9bcg/mala.jpg"/>
+            <p>FATMALA AINI</p>
+        </div>
+    </section>
+</div>
+<div id="contact">
+<div class="wrapper">
+    <div class="footer">
+        <div class="footer-section">
+            <h3>Kelompok Dua</h3>
+            <p>Kami dari kelompok 2, yang beranggotakan 6 orang perempuan</p>
+        </div>
+        <div class="footer-section">
+            <h3>About</h3>
+            <p>Sistem Informasi Akademik Stmik sz nw anjani</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Jln. Raya Mataram- Lb.Lombok KM 49 Desa Anjani, Lombok Timur-NTB Adisucipto Sleman Yogyakarta</p>
+            <p>kontak@stmiksznw.ac.id</p>
+        </div>
+        <div class="footer-section">
+            <h3>Social</h3>
+            <p><b>Instagram: </b>stmiksznw_official</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="copyright">
+<div class="wrapper">
+   <center>&copy; 2020. <b>kelompok2.</b> uaspemrograman.</center>
+</div>
+</body>
+</html>
